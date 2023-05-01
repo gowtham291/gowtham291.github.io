@@ -43,7 +43,20 @@ footer {
   color: black;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
+.sidebar {
+  float: left;
+  width: 10%;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  padding: None;
+  /* border: 1px solid #ccc; */
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 /* Load Font Awesome icons */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 /* Style contact section */
