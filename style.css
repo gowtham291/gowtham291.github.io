@@ -1,12 +1,13 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} 
-  
+}
+
 h1 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
 }
 .nav-list {
   display: flex;
@@ -25,11 +26,17 @@ h2 {
   display: block;
   padding: 1em;
   text-decoration: none;
-  color: #2c2d86;
+  color: black;
   font-size: 1.2em;
   font-weight: bolder;
   letter-spacing: 1px;
 }
+#top-name h2{font-variant: normal;}
+#name p {
+  font-variant: small-caps;
+  font-weight: 600;
+}
+
 
 footer {
   text-align: right;
@@ -41,14 +48,18 @@ footer {
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 /* Style contact section */
 #contact {
-	background-color: #0e0d0d;
+  background-image: url('Images/img3_edited.jpg');
+  background-size:cover;
+  background-position: center 460px;
+  height: 160px;
+
   color: #fff;
 	padding: 20px;
 	text-align: center;
 }
 
 #contact h2 {
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
   font-size: 1.2em;
 }
 
@@ -64,16 +75,16 @@ footer {
 }
 
 #contact ul li a {
-	display: inline-block;
-	background-color: #333;
-	color: #fff;
+	display:inline-block;
+	background-color:#fff;
+	color:black;
 	padding: 15px;
 	border-radius: 7px;
 	transition: all 0.5s ease;
 }
 
 #contact ul li a:hover {
-	background-color: #360858;
+	background-color:rgb(112, 216, 218);
 }
 
 #contact ul li a img {
