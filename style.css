@@ -1,7 +1,16 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+header {
+  background-image: url('Images/img3_edited.jpg');
+  background-size:cover;
+  background-position: center 400px;
+  height: 160px;
 
+  color: #fff;
+	padding: 20px;
+	text-align: left;
+}
 h1 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -59,17 +68,6 @@ footer {
 }
 /* Load Font Awesome icons */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
-/* Style contact section */
-#contact {
-  background-image: url('Images/img3_edited.jpg');
-  background-size:cover;
-  background-position: center 460px;
-  height: 160px;
-
-  color: #fff;
-	padding: 20px;
-	text-align: center;
-}
 
 #contact h2 {
 	/* margin-bottom: 10px; */
@@ -89,7 +87,7 @@ footer {
 
 #contact ul li a {
 	display:inline-block;
-	background-color:#fff;
+	background-color:#ffffffcd;
 	color:black;
 	padding: 15px;
 	border-radius: 7px;
@@ -110,3 +108,11 @@ footer {
 #contact a {
   text-decoration: none;
 }
+
+#banner p {padding-left:2em}
+/* uncomment the specific line to hide the content div on specific pages */
+/* .contentbar1 {display:none}  */
+ .contentbar2 {display:none}  
+/* .contentbar3 {display:none}  */
+/* .contentbar4 {display:none}  */
+/* .contentbar5 {display:none}  *
