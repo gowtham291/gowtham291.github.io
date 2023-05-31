@@ -19,6 +19,7 @@ h2 {
   font-variant: small-caps;
 }
 #headshot {
+  position: relative;
 	float: right;
 	margin-right: 20px;
 	margin-top: 20px;
@@ -29,6 +30,16 @@ h2 {
 	height: auto;
 	border-radius: 19%;
   border-style:groove;
+}
+#read_learn {
+  position:absolute;
+	float: right;
+	top:100%;
+}
+#read_learn img{
+  width: 50px;
+  height: auto;
+  border-style:none;
 }
 
 .nav-list {
