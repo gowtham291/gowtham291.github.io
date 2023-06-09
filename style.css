@@ -93,9 +93,6 @@ footer {
 /* Load Font Awesome icons */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
-#projects h2 a:hover {
-	background-color:rgb(57, 25, 104);
-}
 
 #contact h2 {
 	/* margin-bottom: 10px; */
